@@ -1,0 +1,42 @@
+[submodule "apt"]
+	path = apt
+	url = https://github.com/opscode-cookbooks/apt
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = https://github.com/opscode-cookbooks/git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl
+[submodule "cookbooks/ssh_know_hosts"]
+	path = cookbooks/ssh_known_hosts
+	url = https://github.com/opscode-cookbooks/ssh_known_hosts
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential
+[submodule "cookbooks/postgresql"]
+	path = cookbooks/postgresql
+	url = https://github.com/opscode-cookbooks/postgresql
+[submodule "cookbooks/vim"]
+	path = cookbooks/vim
+	url = https://github.com/opscode-cookbooks/vim
+[submodule "cookbooks/rbenv"]
+	path = cookbooks/rbenv
+	url = git://github.com/fnichol/chef-rbenv.git
+[submodule "cookbooks/ruby_build"]
+	path = cookbooks/ruby_build
+	url = https://github.com/fnichol/chef-ruby_build
+[submodule "site-cookbooks/root_ssh_agent"]
+	path = site-cookbooks/root_ssh_agent
+	url = git://github.com/dergachev/chef_root_ssh_agent.git
+[submodule "site-cookbooks/users"]
+	path = site-cookbooks/users
+	url = git://github.com/dergachev/chef_users.git
+[submodule "site-cookbooks/extend_lwrp"]
+	path = site-cookbooks/extend_lwrp
+	url = git://github.com/dergachev/chef_extend_lwrp.git
+[submodule "cookbooks/ssh_known_hosts"]
+	path = cookbooks/ssh_known_hosts
+	url = https://github.com/opscode-cookbooks/ssh_known_hosts
