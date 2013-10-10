@@ -105,7 +105,6 @@ Vagrant.configure("2") do |config|
     # homesick_agent and its dependencies
     chef.add_recipe "root_ssh_agent::ppid" # maintains agent during 'sudo su root'
     chef.add_recipe "ssh_known_hosts" # populates /etc/ssh/ssh_known_hosts from data_bags/ssh_known_hosts/*.json
-    chef.add_recipe "homesick_agent::data_bag" # includes homesick::data_bag
     chef.add_recipe "openssl"
     chef.add_recipe "postgresql::server"
     chef.add_recipe "postgresql::client"

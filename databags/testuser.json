@@ -7,13 +7,6 @@
   "ssh_keys": [
     "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtZZXy1v7URSfeJceAmhlPwVqblzZeqI+wadHRr/7OJQ27Owa2NJshW6GIGxIVi4cIiTJ7Fk7xwP6MW5N48mkeJ07QOVMEkHUdIQqOIiHJORbk9fhv0d+DUw5qY2F9R88i7PqvV3HYdYyGeOdzxDsOo4kWfvDqegaB/y3SB2XLZJavZORWmhZLnZIH/QNylXe/vI0dLCYzPZuwzQP+ikWx7QoFwhr4Bg77A9zN4ZwU0LiS+TPTeyDQlvCTvJMAD1Apb3fB7R6pRddZgmdTlHNXn73g3nvcfBF8uE0W/O/mM9jR0TQS8IXCHVnZ1ANgC8BIrWTd0szJDe23BKHkcV35 joshughes@paypal.com"
   ],
-  "id": "alex",
-  "homesick_castles": [
-    {
-      "name": "dotfiles",
-      "source": "git://github.com/technicalpickles/dotpickles.git"
-    }
-  ],
   "shell": "/bin/bash",
   "email": "testuser@testdomain.com"
 }
