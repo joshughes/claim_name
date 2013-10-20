@@ -10,9 +10,6 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = https://github.com/opscode-cookbooks/openssl
-[submodule "cookbooks/ssh_know_hosts"]
-	path = cookbooks/ssh_known_hosts
-	url = https://github.com/opscode-cookbooks/ssh_known_hosts
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential
