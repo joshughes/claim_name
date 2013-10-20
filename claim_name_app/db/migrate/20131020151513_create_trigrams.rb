@@ -1,3 +1,3 @@
 class CreateTrigrams < ActiveRecord::Migration
-  extend Fuzzily::Migrations
+  extend Fuzzily::Migration
 end
