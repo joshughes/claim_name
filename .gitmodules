@@ -37,6 +37,7 @@
 [submodule "site-cookbooks/extend_lwrp"]
 	path = site-cookbooks/extend_lwrp
 	url = git://github.com/dergachev/chef_extend_lwrp.git
+
 [submodule "cookbooks/ssh_known_hosts"]
 	path = cookbooks/ssh_known_hosts
-	url = https://github.com/opscode-cookbooks/ssh_known_hosts
+	url = git@github.com:opscode-cookbooks/ssh_known_hosts.git
