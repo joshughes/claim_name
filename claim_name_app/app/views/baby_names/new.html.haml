@@ -4,3 +4,6 @@
 = semantic_form_for [@current_user, @baby_name] do |f|
   =f.inputs do
     = f.input :name
+
+  = f.actions do
+    = f.action :submit, :as => :button

@@ -3,4 +3,17 @@ class BabyNamesController < ApplicationController
     @baby_name= BabyName.new(:user_ids => [params[:user_id]])
     @current_user = User.find(params[:user_id])
   end
+
+  def create
+    BabyName.create(baby_name_params)
+    redirect_to user_path(params[:user_id])
+  end
+
+
+  private
+
+    def baby_name_params
+      params.require(:baby_name).permit(:name)
+    end
+
 end
