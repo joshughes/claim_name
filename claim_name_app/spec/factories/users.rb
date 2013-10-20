@@ -2,5 +2,7 @@
 
 FactoryGirl.define do
   factory :user do
+     sequence(:name)                       {|n| "Stokes ##{n}" }
   end
+
 end

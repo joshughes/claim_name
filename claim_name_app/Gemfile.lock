@@ -48,6 +48,8 @@ GEM
     factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
     fuzzily (0.3.0)
       activerecord (>= 2.3.17)
     haml (4.0.3)
@@ -147,6 +149,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.0.0)
   factory_girl_rails
+  formtastic
   fuzzily
   haml-rails
   jbuilder (~> 1.2)
