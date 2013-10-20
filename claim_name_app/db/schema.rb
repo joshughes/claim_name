@@ -17,6 +17,11 @@ ActiveRecord::Schema.define(version: 20131020152930) do
     t.string "name"
   end
 
+  create_table "baby_names_users", force: true do |t|
+    t.integer "user_id"
+    t.integer "baby_name_id"
+  end
+
   create_table "relationships", force: true do |t|
     t.integer  "follower_id"
     t.integer  "followed_id"
@@ -38,11 +43,6 @@ ActiveRecord::Schema.define(version: 20131020152930) do
 
   add_index "trigrams", ["owner_id", "owner_type", "fuzzy_field", "trigram", "score"], name: "index_for_match"
   add_index "trigrams", ["owner_id", "owner_type"], name: "index_by_owner"
-
-  create_table "user_baby_names", force: true do |t|
-    t.integer "user_id"
-    t.integer "baby_name_id"
-  end
 
   create_table "users", force: true do |t|
     t.string "name"

@@ -1,2 +1,6 @@
 %h1 BabyNames#new
 %p Find me in app/views/baby_names/new.html.haml
+
+= semantic_form_for [@current_user, @baby_name] do |f|
+  =f.inputs do
+    = f.input :name

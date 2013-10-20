@@ -4,7 +4,7 @@ class CreateBabyNames < ActiveRecord::Migration
       t.string :name
     end
 
-    create_table :user_baby_names do |t|
+    create_table :baby_names_users do |t|
       t.belongs_to :user
       t.belongs_to :baby_name
     end
