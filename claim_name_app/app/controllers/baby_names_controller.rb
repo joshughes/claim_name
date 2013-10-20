@@ -5,7 +5,8 @@ class BabyNamesController < ApplicationController
   end
 
   def create
-    BabyName.create(baby_name_params)
+    name = BabyName.create(baby_name_params,)
+    name.update_attributes(:user_ids => params[:user_id])
     redirect_to user_path(params[:user_id])
   end
 
