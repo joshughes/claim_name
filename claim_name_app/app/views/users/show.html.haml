@@ -3,4 +3,12 @@
 
 %h2 #{@current_user.name}
 
-=link_to 'Test', new_user_baby_name_path(@current_user)
+=link_to 'New Baby Name', new_user_baby_name_path(@current_user)
+
+%table
+  %tr
+    %th Baby Names
+  - @current_user.baby_names.each do | baby_name|
+    %tr
+      %td= baby_name.name.titleize
+
